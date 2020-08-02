@@ -16,4 +16,5 @@ In the future, when it's time run migrations, run `docker-compose run web bundle
 
 ## Notes
 
-This is only a copy of [Docker's quickstart guide](https://docs.docker.com/compose/rails/).
+- Runs on Ruby 2.7.1 and Rails ~> 5.2.4
+- This is only a copy of [Docker's quickstart guide](https://docs.docker.com/compose/rails/).
