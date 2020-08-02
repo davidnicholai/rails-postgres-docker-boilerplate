@@ -8,7 +8,9 @@ Docker and Docker Compose
 
 ## Setup
 
-Just run `docker-compose up`, and on a separate terminal window, run `docker-compose run web bundle exec rails db:create`
+- Just run `docker-compose up`, and on a separate terminal window, run `docker-compose run web bundle exec rails db:create`
+- Your Rails app is on [http://localhost:3000](http://localhost:3000)
+
 
 ## Migrations
 
