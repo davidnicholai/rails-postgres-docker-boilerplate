@@ -11,6 +11,10 @@ Docker and Docker Compose
 - Just run `docker-compose up`, and on a separate terminal window, run `docker-compose run web bundle exec rails db:create`
 - Your Rails app is on [http://localhost:3000](http://localhost:3000)
 
+## Tips
+
+- To generate controllers and the like, run `docker-compose run web bundle exec rails g controller Foo`
+- The above command will generate files, however it'll be owned by root (if you check via `ls -la`) to fix this, run `sudo chown -R $USER:$USER .`
 
 ## Migrations
 
